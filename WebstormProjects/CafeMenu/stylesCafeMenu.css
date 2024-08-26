@@ -5,6 +5,9 @@ body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
 }
+.established {
+    font-style: italic;
+}
 .menu {
     width: 80%;
     max-width: 500px;
@@ -13,8 +16,19 @@ body {
     margin-right: auto;
     padding: 20px; /* Since all padding-sides are same */
 }
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
 h1, h2 {
     font-family: Impact, serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
 }
 .flavor, .dessert {
     text-align: left;
