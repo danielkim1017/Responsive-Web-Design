@@ -7,25 +7,25 @@
 </head>
 <body>
     <h1 id="title">How can the NBA improve their entertainment value?</h1>
-    <p id="description">Thank you for taking the time to help the NBA improve</p>
+    <p id="description">Thank you for taking the time to help the NBA improve!</p>
     <form id="survey-form">
         <div class="input-element">
-            <label for="name">
+            <label id="name-label">
                 Name
             </label>
-            <input id="name" type="text" required/>
+            <input placeholder="Your Name i.e Joe" id="name" type="text" required/>
         </div>
-        <div class="input-element">
-            <label for="email">
+        <div class="input-element"></div>
+            <label id="email-label">
                 Email
             </label>
-            <input id="email" type="email" required/>
+            <input placeholder="Your Email @" id="email" type="email" required/>
         </div>
         <div class="input-element">
-            <label for="age">
+            <label id="number-label">
                 Age
             </label>
-            <input id="age" min="1" max="100" type="number" required/>
+            <input placeholder="Your Age (1-100)" id="number" min="1" max="100" type="number" required/>
         </div>
     </form>
 </body>
